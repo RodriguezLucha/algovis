@@ -1,13 +1,24 @@
 import React from 'react';
 import styles from './App.module.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <div className={styles.blue}>1</div>
-      <div className={styles.green}>2</div>
-    </div>
-  );
+class App extends React.Component {
+
+  state = {
+    boxes: ['blue', 'green']
+  }
+
+  swap(){
+    this.setState({boxes: this.state.boxes.reverse()});
+  }
+
+  render(){
+    return (
+      <div className={styles.app}>
+        {this.state.boxes.map(box => <div className={styles[box]} key={box}>{box}</div>)}
+        <button className={styles.button} onClick={() => this.swap()}>Swap</button>
+      </div>
+    );
+  }
 }
 
 export default App;
