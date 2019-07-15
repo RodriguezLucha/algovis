@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './App.module.scss';
+import { CSSTransitionGroup } from 'react-transition-group'
 
 class App extends React.Component {
 

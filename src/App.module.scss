@@ -23,6 +23,7 @@ $box-size: 200px;
 .green {
   composes: box;
   background-color: green;
+  animation: mymove 2s;
 }
 
 .button {
