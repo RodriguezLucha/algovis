@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  composes: box;
+  background-color: blue;
+}
+
+.green {
+  composes: box;
+  background-color: green;
+}
