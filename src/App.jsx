@@ -21,11 +21,11 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        {/* <button className={styles.button} onClick={() => this.swap()}>Swap</button>
+        <button className={styles.button} onClick={() => this.swap()}>Swap</button>
         <div className="box-container">
           <div className={classNames('box1', this.state.boxpos[0])}>Box 1</div>
           <div className={classNames('box2', this.state.boxpos[1])}>Box 2</div>
-        </div> */}
+        </div>
         ...
 
       </div>
