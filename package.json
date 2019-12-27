@@ -11,7 +11,7 @@
     "react-scripts": "3.0.1",
     "react-transition-group": "^1.2.1"
   },
-  "homepage": "http://rodriguezlucha.github.io/react-animations",
+  "homepage": "https://rodriguezlucha.github.io/react-animations",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
