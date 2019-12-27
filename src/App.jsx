@@ -1,22 +1,22 @@
 import React from 'react';
-// import styles from './App.module.scss';
+import styles from './App.module.scss';
 import './App.css';
 
-// const classNames = require('classnames');
+const classNames = require('classnames');
 
 class App extends React.Component {
 
-  // state = {
-  //   boxpos: ['pos1', 'pos2'],
-  //   toggled: true
-  // }
+  state = {
+    boxpos: ['pos1', 'pos2'],
+    toggled: true
+  }
 
-  // swap(){
-  //   this.setState({
-  //     toggled: !this.state.toggled,
-  //     boxpos: this.state.boxpos.reverse(),
-  //   });
-  // }
+  swap(){
+    this.setState({
+      toggled: !this.state.toggled,
+      boxpos: this.state.boxpos.reverse(),
+    });
+  }
 
   render(){
     return (
