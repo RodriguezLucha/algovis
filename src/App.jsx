@@ -26,6 +26,7 @@ class App extends React.Component {
           <div className={classNames('box1', this.state.boxpos[0])}>Box 1</div>
           <div className={classNames('box2', this.state.boxpos[1])}>Box 2</div>
         </div>
+        .
 
       </div>
     );
